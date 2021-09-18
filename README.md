@@ -2,4 +2,5 @@
 Scrapes data from CoinGecko
 
 # Future
-Save data to CSV
+Convert response to JSON
+Convert JSON to CSV
