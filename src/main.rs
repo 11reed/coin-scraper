@@ -1,11 +1,5 @@
-use serde::{Serialize, Deserialize};
 use futures::{future, FutureExt};
 use nipper::Document;
-
-#[derive(Serialize, Deserialize, Debug)]
-struct Data {
-    origin: String,
-}
 
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
@@ -55,5 +49,3 @@ async fn sol_info() -> Result<(), reqwest::Error> {
 
     Ok(())
 }
-
-// CSV function --->
